@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dark Web Simulation - VPN Activation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: #ffffff;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Dark Web Simulation</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="onion-directory.html" role="button">Activate VPN</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h2>Activate VPN for Anonymity</h2>
+        <p>Before you connect to the dark web, it's important to activate a VPN for added security. Click "Activate VPN" to proceed.</p>
+        <a href="onion-directory.html">
+            <img src="image-link-for-vpn-activation.jpg" alt="Activate VPN">
+        </a>
+        <p><a href="onion-directory.html" role="button">Activate VPN</a></p>
+    </main>
+</body>
+</html>
