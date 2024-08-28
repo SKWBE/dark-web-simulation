@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dark Web Simulation - Tor Browser</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: #ffffff;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Dark Web Simulation</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="vpn-activation.html" role="button">Launch Tor Browser</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h2>Welcome to the Dark Web Simulation</h2>
+        <p>To begin your journey, click "Launch Tor Browser" to simulate connecting to the dark web.</p>
+        <a href="vpn-activation.html">
+            <img src="image-link-for-tor-simulation.jpg" alt="Launch Tor Browser">
+        </a>
+        <p><a href="vpn-activation.html" role="button">Launch Tor Browser</a></p>
+    </main>
+</body>
+</html>
